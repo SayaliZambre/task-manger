@@ -1,6 +1,6 @@
 "use server";
 import { connectDB } from "@/lib/db";
-import { Task, ITask } from "@/models/task";
+import { Task, ITask } from "@/models/tasks";
 
 export const getTasks = async () => {
   await connectDB();
