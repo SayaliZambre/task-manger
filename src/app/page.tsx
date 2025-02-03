@@ -1,3 +1,5 @@
+"use client";
+
 import AddTodo from "@/components/AddTodo";
 import Navbar from "@/components/Navbar";
 import Todo from "@/components/Todo";
